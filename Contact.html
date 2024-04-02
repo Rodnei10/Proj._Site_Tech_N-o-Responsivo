@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS.css">
+    <title>Blog
+    </title>
+</head>
+
+<body>
+    <header>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About Tech.html">About Tech</a></li>
+                <li><a href="IA Tech.html">IA Tech</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <article>
+            <div>
+                <div class="subtit5">
+                    <h1>DEIXE SEU CONTATO</h1>
+                </div>
+                            <form id="frm">
+                                <div id="frm-fields">
+                                    <input type="text"  name="company" id="company"	value="" placeholder="Digite o nome da empresa">
+                                    <input type="text"  name="name"	   id="name"	value="" placeholder="Digite seu nome"		required = "">
+                                    <input type="email" name="email"   id="email"	value="" placeholder="Digite seu e-mail"	required = "">
+                                    <input type="text"  name="phone"   id="phone"	value="" placeholder="Digite seu telefone"	required = "">
+            
+                                    <select name="category" id="category" required>
+                                        <option value = "">				Selecione...	</option>
+                                        <option value = "Orçamento">	Orçamento		</option>
+                                        <option value = "Compra">		Compra			</option>
+                                        <option value = "Sugestão">		Sugestão		</option>
+                                        <option value = "Reclamação">	Reclamação		</option>
+                                    </select>
+                                    <textarea name="message" id="message" rows="6" placeholder="Sua mensagem" required=""></textarea>
+                                </div>
+
+                                <div id="frm-check">
+                                    <input type="checkbox" id="no-robot" name="no-robot" checked required="">
+                                        <label for="no-robot"> Não sou robô </label>
+            
+                                    <input type="checkbox" id="copy-to" name="copy-to">
+                                        <label for="copy-to"> Envie-me uma cópia </label>
+                                </div>
+            
+                                <div>
+                                    <input id="button-active"   class="button" type="submit" value="Enviar">
+                                    <input id="button-inactive" class="button" type="reset"  value="Limpar">
+                                </div>
+                            </form>
+            </div>
+            <footer class="footer5">
+                <p id="rodape"> Copyright &copy;2023</p>
+                </footer>
+</body>
+
+</html>
